@@ -32,6 +32,7 @@ img{border:none;}
     height: 56px;
     line-height: 56px;
 }
+
 .shopcar:hover>a{
 	color:#ccc;
 }
@@ -154,4 +155,81 @@ img{border:none;}
 }
 .add .shade{
 	padding-right: 0;
+}
+
+/*subMenu*/
+.subMenu{
+	width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    /*z-index: 9;*/
+    height: 45px;
+    border-bottom: 4px solid #ededed;
+    background: #fff;
+}
+.subMenu ul{
+	width: 734px;
+    height: 49px;
+    float:left;
+}
+.subMenu ul li{
+    float:left;
+}
+.subMenu ul li:hover>a{
+	border-bottom:#25292e solid 4px;
+}
+.subMenu ul li>a{
+	display: block;
+    width: 121px;
+    height: 45px;
+    line-height: 46px;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: #ededed solid 4px;
+}
+.subMenu ul .homepage a{
+	width:118px;
+	text-align: left;
+}
+.subMenu ul .subLi{
+	width:164px;
+}
+.search{
+	height: 49px;
+    width: 260px;
+    line-height: 45px;
+    float:right;
+    position: relative;
+    overflow: hidden;
+}
+.search .search-input{
+	position: relative;
+    left: 266px;
+    width: 260px;
+    border-bottom: 4px solid #25292e;
+    background: transparent;
+    text-align: left;
+    height: 45px;
+}
+#glb_keyword{
+	position: relative;
+    top: 3px;
+    left: 4px;
+    width: 188px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 4px;
+    border: none;
+    border: 0;
+    resize: none;
+    outline: none;
+}
+.search>a{
+	width:46px;height:40px;
+	background: url(../img/search.png) no-repeat;
+	position: absolute;
+	top:3px;
+	right:0;
+	
 }
