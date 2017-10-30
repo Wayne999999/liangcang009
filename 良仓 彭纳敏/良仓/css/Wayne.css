@@ -1,0 +1,236 @@
+*{margin: 0;padding: 0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+#header{width:100%;}
+.header-top{
+	width:100%;height:56px;
+	background: #25292e;
+}
+.wrap{
+	width:1000px;height:56px;
+	margin: 0 auto;
+}
+.logo{
+	width:95px;height:38px;
+	margin: 9px 0;
+	float:left;
+}
+.logo a{
+	width:95px;height:38px;
+	background: url(../img/logo.png) no-repeat;
+	float:left;
+}
+.nav{
+	height:56px;
+	float:right;
+	position:relative;
+}
+.nav li{
+	font-size: 12px;
+	float: left;
+    height: 56px;
+    line-height: 56px;
+}
+
+.shopcar:hover>a{
+	color:#ccc;
+}
+.shopcar:hover .cart{
+	display: block;
+}
+.shopcar:hover .cart>.cart_list>a{
+	color:#fff;
+}
+.cart{
+	width: 320px;
+    letter-spacing: 1px;
+    position:absolute;
+    top:56px;
+    right: 0px;
+    background: #292f34;
+    display: none;
+    z-index: 1000;
+}
+
+.cart .shop{
+	height: 70px;
+	color: #9d9d9d;
+    line-height: 70px;
+    padding: 0 20px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+}
+.cart .shop a{
+	color:#ccc;
+}
+.cart .cart_list>a{
+	width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #7dbfde;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    display: block;
+}
+.nav li>a{
+	height: 56px;
+    line-height: 56px;
+    color: #666;
+    padding: 0 15px;
+    letter-spacing: 1.1px;
+}
+.nav li>a:hover{
+	color:#ccc;
+}
+.nav .shopcar:hover{
+	background: #292f34;
+}
+.nav .posr:hover{
+	background: #292f34;
+}
+
+.nav .line{
+	width: 1px;
+    height: 8px;
+    margin-top: 25px;
+    background: #525961;
+}
+#loginBtn{
+	margin-right: 8px;
+	padding: 0;
+	color:#ccc;
+}
+#registerBtn{
+	padding-right: 15px;
+	padding-left: 0;
+	color:#ccc;
+}
+.posr:hover a{
+	color:#ccc;
+}
+.posr:hover .msg{
+	display: block;
+}
+.posr .msg{
+	position: absolute;
+    top: 56px;
+    right:0;
+    background: #292f34;
+    display: none;
+    z-index: 1000;
+}
+.posr .msg a{
+	display: block;
+    width: 160px;
+    height: 44px;
+    padding: 0 15px;
+    line-height: 44px;
+    background: #292f34;
+    cursor: pointer;
+}
+.posr .msg a span{
+	width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    border-bottom: 1px solid #3f4449;
+    color: #ccc;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    position:relative;
+    display: block;
+}
+.posr .msg .last span{
+	border: none;
+}
+.posr .msg a:hover{
+	background: #2e353d;
+}
+.msg a span small{
+	position: absolute;
+    right: 0;
+    top: 1px;
+}
+.add .shade{
+	padding-right: 0;
+}
+
+/*subMenu*/
+.subMenu{
+	width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    /*z-index: 9;*/
+    height: 45px;
+    border-bottom: 4px solid #ededed;
+    background: #fff;
+}
+.subMenu ul{
+	width: 734px;
+    height: 49px;
+    float:left;
+}
+.subMenu ul li{
+    float:left;
+}
+.subMenu ul li:hover>a{
+	border-bottom:#25292e solid 4px;
+}
+.subMenu ul li>a{
+	display: block;
+    width: 121px;
+    height: 45px;
+    line-height: 46px;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: #ededed solid 4px;
+}
+.subMenu ul .homepage a{
+	width:118px;
+	text-align: left;
+}
+.subMenu ul .subLi{
+	width:164px;
+}
+.search{
+	height: 49px;
+    width: 260px;
+    line-height: 45px;
+    float:right;
+    position: relative;
+    overflow: hidden;
+}
+.search .search-input{
+	position: relative;
+    left: 266px;
+    width: 260px;
+    border-bottom: 4px solid #25292e;
+    background: transparent;
+    text-align: left;
+    height: 45px;
+}
+#glb_keyword{
+	position: relative;
+    top: 3px;
+    left: 4px;
+    width: 188px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 4px;
+    border: none;
+    border: 0;
+    resize: none;
+    outline: none;
+}
+.search>a{
+	width:46px;height:40px;
+	background: url(../img/search.png) no-repeat;
+	position: absolute;
+	top:3px;
+	right:0;
+	
+}
