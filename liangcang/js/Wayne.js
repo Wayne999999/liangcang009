@@ -2,6 +2,11 @@
 var w = $("#actionContainer ul li").innerWidth();
 var a = 0;
 var timer = setInterval(move,2000);
+$(".bigarea,.lbbtn").hover(function(){
+	$(".lbbtn").css({backgroundColor:"rgba(0,0,0,0.5)"});
+},function(){
+	$(".lbbtn").css({backgroundColor:"rgba(0,0,0,0)"});
+})
 function move1(){
 	if(a<=0){
 			a = 5;
@@ -41,6 +46,13 @@ $("#actionContainer").mouseover(function(){
 $("#actionContainer").mouseout(function(){
 	timer = setInterval(move,2000);
 })
+$("#actionOpt a").hover(function(){clearInterval(timer);},function(){timer = setInterval(move,2000);})
+$("#actionOpt a").click(function(){
+	var a1 = $(this).index();
+	$(this).addClass("current").siblings().removeClass();
+	$("#actionContainer ul").css({"left":-a1*w})
+})
+
 
 
 //回到顶部
@@ -62,7 +74,7 @@ $(document).scroll(function() {
 
 //Ajax获取热门商品数据
 var url = "http://h6.duchengjiu.top/shop/api_goods.php";
-$.get(url, {"page":2,"pagesize":18},function(obj) {
+$.get(url, {"page":5,"pagesize":18},function(obj) {
 	console.log(obj);
 	var arr = obj.data;
 	var h = "";
