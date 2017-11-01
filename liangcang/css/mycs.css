@@ -1,0 +1,316 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.position{
+	width: 1000px;
+	height: 20px;
+	margin: 0 auto;
+	
+	padding: 10px 0 5px;
+	font-size: 14px;
+}
+.Goods{
+	width: 1000px;
+	height: 370px;
+	margin: 65px auto 0;
+	
+	
+	
+}
+.zz{
+	clear: both;
+}
+.Goods ul li{
+	width: 306px;
+	height: 360px;
+	padding-top: 10px;
+	float: left;
+	margin-right:20px;
+}
+
+.Goods ul li .goodsdetail{
+	width: 306px;
+	height: 34px;
+	
+}
+.goodsdetail .box1{
+	width: 34px;
+	height: 34px;
+	float: left;
+}
+.goodsdetail .box2{
+	width: 270px;
+	height: 34px;
+	float: right;
+	background: #efeff0;
+}
+.goodsdetail .box2 a{
+	line-height: 34px;
+	
+}
+.Goods ul li .goodsdetail a{
+	color: black;
+	
+}
+
+.goodsdetail .a01{
+	float: right;
+	line-height: 34px;
+	color: black;
+	margin-right: 10px;
+}
+.bindEvent{
+	width: 306px;
+	height: 306px;
+	position: relative;
+}
+.Goods ul li .bindEvent a img{
+	width: 306px;
+	height: 306px;
+}
+.honver{
+	width: 306px;
+	height: 306px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.3;
+	display: none;
+	text-align: center
+	
+}
+.honver p{
+	color: white;	
+	margin-top: 140px;
+}
+.bindEvent span{
+	
+	color: white;
+	width: 100%;
+	height: 30px;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:black;
+	opacity: 0.45;
+	z-index: 10;
+	display: none;
+}
+.bindEvent:hover .honver{
+	display: block;
+}
+.bindEvent:hover span{
+	display: block
+}
+.siftCon{
+	width: 1000px;
+	height: 31px;
+	margin: 0 auto;
+	
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid gray;
+}
+.siftCon a {
+	font-size: 14px;
+	margin: 0 5px;
+	color: black;
+}
+.goods{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+}
+.goods ul li{
+	width: 235px;
+	height: 269px;
+	margin-right: 15px;
+	float: left;
+	
+}
+.li02{
+	margin-right: 0;
+}
+.goods-top{
+	width: 235px;
+	height: 34px;
+	
+}
+.box3{
+	width: 34px;
+	height: 34px;
+	float: left;
+}
+.box4{
+	width: 200px;
+	height: 34px;
+	float: right;
+	line-height: 34px;
+	background: #efeff0;
+}
+.box4 .aa1{
+	float: right;
+	margin-right: 5px;
+	
+}
+.goods-bot{
+	width: 235px;
+	height: 235px;
+}
+.goods-bot a img{
+	width: 160px;
+	height: 235px;
+	margin-left: 37px;
+}
+.pager{
+	
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: right;
+	
+}
+.pager input{
+	width: 50px;
+}
+
+.bg-box{
+	width: 56px;
+	height: 65px;
+	float: left;
+	background: url(../img/icon.png)no-repeat 0px -350px;
+	margin-right: 10px;
+}
+.nr-box{
+	height: 70px;
+	padding-top: 10px;
+}
+.nr-box p {
+	
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.goodslist244{
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 0;
+	
+}
+.goodslist244-m{
+	width: 100%;
+	height: 270px;
+	
+}
+.darenItem{
+	width: 230px;
+	height: 270px;
+	float: left;
+	
+}
+.darenlb{
+	width: 750px;
+	height: 270px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	
+}
+.darenlb ul{
+	width: 1520px;
+	height: 270px;
+	position: absolute;
+}
+.darenlb a.pre{
+	width: 20px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	top: 115px;
+	background: url(../img/Left_circle_pre_white.png)no-repeat -20px 0;
+	z-index: 20;
+}
+.darenlb a.nxt{
+	width: 20px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 115px;
+	background: url(../img/Right_circle_next_white.png)no-repeat 0 0;
+	z-index: 20;
+}
+.darenItem-left{
+	width: 123px;
+	height: 123px;
+	float: left
+}
+.darenItem-left img{
+	width: 123px;
+	height: 123px
+}
+.darenItem-r{
+	width: 98px;
+	height: 123px;
+	float: right;
+}
+.darenItem-r p{
+	font-size: 14px;
+}
+.darenItem-r p.pp1{
+	width: 20px;
+	height:30px;
+	display: inline-block;
+	
+	background: url(../img/icon.png)no-repeat 0 -840px;
+	margin-top: 10px
+
+}
+
+.darenlb ul li{
+	width: 235px;
+	height: 270px;
+	float: left;
+	
+}
+.v-blank{
+	width: 20px;
+	height: 270px;
+	float: left;
+}
+
+.darenlb ul li .goods-top .box3 a img {
+	width: 34px;
+	height: 34px;
+}
+.darenlb ul li .goods-bot{position: relative;}
+.darenlb ul li .goods-bot a img{
+	width: 235px;
+	height: 235px;
+	margin-left: 0;
+}
+.fgc{
+	width: 235px;
+	height: 235px;
+	position: absolute;
+	left: 0;
+	top: 34px;
+	background: rgba(0,0,0,0.3);
+	display: none;
+}
+.darenlb ul li .goods-bot:hover .fgc{
+	display: block;
+}
