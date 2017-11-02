@@ -18,9 +18,6 @@ $.get(url, {"page":1},function(obj) {
 	var arr = obj.data;
 	var h = "";
 	var n = "li_1";
-    $("a").click(function() {
-    	var s="page"
-    })
 	$(".shopListCon").html(h);
 	for (var i = 0; i < arr.length; i++)
 	{
