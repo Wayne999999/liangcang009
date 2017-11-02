@@ -23,7 +23,7 @@ img{
 .Goods{
 	width: 1000px;
 	height: 370px;
-	margin: 65px auto 0;
+	margin: 0 auto;
 	
 	
 	
@@ -166,10 +166,6 @@ img{
 	margin-right: 5px;
 	
 }
-.goods-bot{
-	width: 235px;
-	height: 235px;
-}
 .goods-bot a img{
 	width: 160px;
 	height: 235px;
@@ -187,7 +183,37 @@ img{
 .pager input{
 	width: 50px;
 }
-
+.blank{
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid gray;
+}
+.lcshop{
+	width: 1000px;
+	height: 220px;
+	margin: 0 auto;
+	padding-top: 30px;
+	
+}
+.lcshop-top{
+	/*text-align: center;*/
+	width: 200px;
+	margin: 0 auto;
+	background: url(../img/icon.png)no-repeat -168px -355px;
+	padding-left: 50px;
+}
+.lcshop-d{
+	width: 1000px;
+	height: 80px;
+	/*background: blueviolet;*/
+	margin-top: 35px;
+}
+.lcshop-d ul li{
+	width: 230px;
+	height: 80px;
+	float: left;
+	padding-left: 20px;
+}
 .bg-box{
 	width: 56px;
 	height: 65px;
@@ -204,54 +230,115 @@ img{
 	font-size: 14px;
 	line-height: 24px;
 }
-
-.goodslist244{
+.footer{
+	width: 100%;
+	height: 210px;
+	background: #25292e;
+	padding-top: 20px;
+}
+.footer-top{
 	width: 1000px;
-	height: auto;
-	margin: 65px auto 0;
+	height: 60px;
+	margin: 0 auto;
+	/*background: bisque;*/
+}
+.phone{
+	width: 220px;
+	height: 60px;
+	float: left;
 	
 }
-.goodslist244-m{
-	width: 100%;
-	height: 270px;
+.phone span{
+	width: 32px;
+	height: 45px;
+	display: block;
+	margin-right: 20px;
+	float: left;
+	background: url(../img/icon.png) no-repeat -173px 0;
+}
+.phone p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.phone a{
+	color: white;
+}
+.links{
+	width: 160px;
+	height: 45px;
+	padding-top: 15px;
+	float: right;
 	
+	
+}
+.links span{
+	width: 30px;
+	height: 22px;
+	display: block;
+	margin: 0 10px;
+	float: left;
+	background: url(../img/icon.png)no-repeat -100px 0;
+}
+.footer-d{
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+}
+.footer-d p{
+	color:#5c5c5c;
+	font-size: 12px;
+	line-height:24px;
+}
+.footer-d p a{
+	font-size: 12px;
+	color: white;
+	margin:0 5px
+}
+.displayStyle{
+	width: 1000px;
+	height: 30px;
+	padding-top: 10px;
+	margin: 0 auto;
+	
+}
+.lt{
+	width: 102px;
+	height: 20px;
+	float: left;
+}
+.lt a{
+	color: #333333;
+	font-size: 14px;
+	
+}
+.lt .list-hover{
+	background: url(../img/icon.png);
+	
+	
+}
+.gt{
+	width: 274px;
+	height: 20px;
+	float: right;
+	font-size: 13px;
+	line-height: 20px;
+	color: #333333;
+}
+.gt a{
+	color: #333333;
+	margin:0 5px;
+}
+.goodslist244{
+	width: 1000px;
+	height: 5600px;
+	margin: 0 auto;
+	background: gray;
 }
 .darenItem{
 	width: 230px;
 	height: 270px;
 	float: left;
-	
-}
-.darenlb{
-	width: 750px;
-	height: 270px;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	
-}
-.darenlb ul{
-	width: 1520px;
-	height: 270px;
-	position: absolute;
-}
-.darenlb a.pre{
-	width: 20px;
-	height: 40px;
-	position: absolute;
-	left: 0;
-	top: 115px;
-	background: url(../img/Left_circle_pre_white.png)no-repeat -20px 0;
-	z-index: 20;
-}
-.darenlb a.nxt{
-	width: 20px;
-	height: 40px;
-	position: absolute;
-	right: 0;
-	top: 115px;
-	background: url(../img/Right_circle_next_white.png)no-repeat 0 0;
-	z-index: 20;
+	background: green
 }
 .darenItem-left{
 	width: 123px;
@@ -279,38 +366,6 @@ img{
 	margin-top: 10px
 
 }
-
-.darenlb ul li{
-	width: 235px;
-	height: 270px;
-	float: left;
+.darenItem-r a.aza{
 	
-}
-.v-blank{
-	width: 20px;
-	height: 270px;
-	float: left;
-}
-
-.darenlb ul li .goods-top .box3 a img {
-	width: 34px;
-	height: 34px;
-}
-.darenlb ul li .goods-bot{position: relative;}
-.darenlb ul li .goods-bot a img{
-	width: 235px;
-	height: 235px;
-	margin-left: 0;
-}
-.fgc{
-	width: 235px;
-	height: 235px;
-	position: absolute;
-	left: 0;
-	top: 34px;
-	background: rgba(0,0,0,0.3);
-	display: none;
-}
-.darenlb ul li .goods-bot:hover .fgc{
-	display: block;
 }

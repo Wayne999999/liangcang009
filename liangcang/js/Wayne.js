@@ -75,7 +75,7 @@ $(document).scroll(function() {
 //Ajax获取热门商品数据
 var url = "http://h6.duchengjiu.top/shop/api_goods.php";
 $.get(url, {"page":5,"pagesize":18},function(obj) {
-	//console.log(obj);
+	console.log(obj);
 	var arr = obj.data;
 	var h = "";
 	var n = "first";
@@ -102,53 +102,3 @@ $.get(url, {"page":5,"pagesize":18},function(obj) {
 
 	$(".shopListCon").html(h);
 })
-
-
-
-
-/*******************************************注册页面js代码*************************************************/
-//输入框即时编辑
-var str = [];
-$(".innerPro").focusin(function(){
-	if($(this).val()==str[$(".innerPro").index(this)]){
-		$(this).val("");
-	}
-})
-for(var i=0;i<4;i++){
-	str[i]=$(".innerPro").eq(i).val();
-}
-$(".innerPro").focusout(function(){
-	var a=$(".innerPro").index(this);
-	//console.log(a);
-	var str2 = $(this).val();
-	if(!$(this).val()){
-		$(this).val(str[a]);
-	}
-})
-
-//验证码
-$.idcode.setCode();
-$(".nextVert").click(function(){
-	$.idcode.setCode(); 
-})
-$("#Txtidcode").focusout(function(){
-	var IsBy = $.idcode.validateCode()  //调用返回值，返回值结果为true或者false
-        if(IsBy){
-            alert("验证码输入正确")
-        }else {
-            alert("请重新输入")
-        }
-});
-
-//密码强度
-$(document).keyup(function(){
-	var passward = $("#pwd").val();
-	if(passward.length>=6){
-		$("#pwdStrong").css({"background-position-x":0, "background-position-y":-12});
-	}
-	else if(passward.length<6){
-		$("#pwdStrong").css({"background-position-x":0, "background-position-y":0});
-	}
-})
-
-
