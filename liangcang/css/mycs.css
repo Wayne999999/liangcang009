@@ -314,3 +314,20 @@ img{
 .darenlb ul li .goods-bot:hover .fgc{
 	display: block;
 }
+
+.denglv{
+	background: #989898;
+	width: 100%;
+	height: 100%;
+}
+.logins{
+	width: 545px;
+	height: 640px;
+}
+.pager a{
+	color: gray;
+}
+.pager a.qaq{
+	background: gray;
+	color: white;
+}

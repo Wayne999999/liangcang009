@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>AYTM:永不过时的丹麦好品味.良仓 - 生活美学指南</title>
 		<link type="text/css" rel="stylesheet" href="css/Wayne.css" />
 		<link rel="stylesheet" href="css/shangdainfz.css" />
 	</head>
@@ -15,8 +15,8 @@
 					</div>
 					<ul class="nav">
 						<li class="login-reg-btn">
-							<a id="loginBtn" href="javascript:">登录</a>
-							<a id="registerBtn" href="javascript:">注册</a>
+							<a id="loginBtn" href="login_1.html">登录</a>
+							<a id="registerBtn" href="register.html">注册</a>
 						</li>
 						<li class="line"></li>
 						<li class="shopcar">
@@ -70,8 +70,8 @@
 					<li class="homepage">
 						<a href="javascript:">首页</a>
 					</li>
-					<li class="subLi" id="sui">
-						<a href="shandian.html">商店</a>
+					<li class="subLi">
+						<a href="javascript:">商店</a>
 						<div class="store">
 							
 						</div>
@@ -271,6 +271,8 @@
 				</div>
 			</div>
 		</div>
+		
+		
 		<div id="service">
 			<a href="javascript:">
 				<p class="hand"></p>
@@ -370,16 +372,21 @@
 				</div>
 			</div>
 		</div>
+		
+		<!--回到顶部-->
+		<div class="backToTopV2">
+			<a href="javascript:;" class="top" style="opacity: 1;"></a>
+		</div>
+		
+		<!--联系客服-->
+		<div id="em-widegetPopBar">
+			<a href="javascript:;" class="em-wideget-pop-bar">联系客服</a>
+		</div>
 	</body>
-	<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
-	<script>
-		$(document).scroll(function() {
-			var a=$(document).scrollTop()
-			if (a>11700) {
-				$(".topic_right").fadeOut();
-			} else{
-				$(".topic_right").fadeIn();
-			}
-		})
-	</script>
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>-->
+	<script type="text/javascript" src="js/jquery.idcode.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/topicapp.js" ></script>
 </html>
