@@ -23,11 +23,7 @@ img{
 .Goods{
 	width: 1000px;
 	height: 370px;
-<<<<<<< HEAD
 	margin: 0 auto;
-=======
-	margin: 65px auto 0;
->>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912
 	
 	
 	
@@ -170,13 +166,6 @@ img{
 	margin-right: 5px;
 	
 }
-<<<<<<< HEAD
-=======
-.goods-bot{
-	width: 235px;
-	height: 235px;
-}
->>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912
 .goods-bot a img{
 	width: 160px;
 	height: 235px;
@@ -194,7 +183,6 @@ img{
 .pager input{
 	width: 50px;
 }
-<<<<<<< HEAD
 .blank{
 	width: 100%;
 	height: 90px;
@@ -226,9 +214,6 @@ img{
 	float: left;
 	padding-left: 20px;
 }
-=======
-
->>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912
 .bg-box{
 	width: 56px;
 	height: 65px;
@@ -245,7 +230,6 @@ img{
 	font-size: 14px;
 	line-height: 24px;
 }
-<<<<<<< HEAD
 .footer{
 	width: 100%;
 	height: 210px;
@@ -355,56 +339,6 @@ img{
 	height: 270px;
 	float: left;
 	background: green
-=======
-
-.goodslist244{
-	width: 1000px;
-	height: auto;
-	margin: 65px auto 0;
-	
-}
-.goodslist244-m{
-	width: 100%;
-	height: 270px;
-	
-}
-.darenItem{
-	width: 230px;
-	height: 270px;
-	float: left;
-	
-}
-.darenlb{
-	width: 750px;
-	height: 270px;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	
-}
-.darenlb ul{
-	width: 1520px;
-	height: 270px;
-	position: absolute;
-}
-.darenlb a.pre{
-	width: 20px;
-	height: 40px;
-	position: absolute;
-	left: 0;
-	top: 115px;
-	background: url(../img/Left_circle_pre_white.png)no-repeat -20px 0;
-	z-index: 20;
-}
-.darenlb a.nxt{
-	width: 20px;
-	height: 40px;
-	position: absolute;
-	right: 0;
-	top: 115px;
-	background: url(../img/Right_circle_next_white.png)no-repeat 0 0;
-	z-index: 20;
->>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912
 }
 .darenItem-left{
 	width: 123px;
@@ -432,44 +366,6 @@ img{
 	margin-top: 10px
 
 }
-<<<<<<< HEAD
 .darenItem-r a.aza{
 	
 }
-=======
-
-.darenlb ul li{
-	width: 235px;
-	height: 270px;
-	float: left;
-	
-}
-.v-blank{
-	width: 20px;
-	height: 270px;
-	float: left;
-}
-
-.darenlb ul li .goods-top .box3 a img {
-	width: 34px;
-	height: 34px;
-}
-.darenlb ul li .goods-bot{position: relative;}
-.darenlb ul li .goods-bot a img{
-	width: 235px;
-	height: 235px;
-	margin-left: 0;
-}
-.fgc{
-	width: 235px;
-	height: 235px;
-	position: absolute;
-	left: 0;
-	top: 34px;
-	background: rgba(0,0,0,0.3);
-	display: none;
-}
-.darenlb ul li .goods-bot:hover .fgc{
-	display: block;
-}
->>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912

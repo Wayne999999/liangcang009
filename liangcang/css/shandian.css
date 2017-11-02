@@ -4,7 +4,7 @@
 }
 #main {
 	width: 1000px;
-	height: 2000px;
+	height: 8850px;
 	margin: 0 auto;
 	padding-left: 150px;
 	clear: both;
@@ -189,12 +189,12 @@ a {
     height: 490px;
     width: 1000px;
     float: left;
-    margin: -160px -100px;
+    margin: 440px -100px;
     position: relative;
 }
 #main .styl_1 .li_1 {
-    width: 490px;
-    height: 490px;
+    width: 550px;
+    height: 755px;
     left: 0px;
     top: 0px;
 }
@@ -203,6 +203,12 @@ a {
     /* position: absolute; */
     float: left;
     z-index: 10;
+}
+.shopListCon .item {
+    width: 316px;
+    height: 366px;
+    margin: 50px 0px 30px 26px;
+    float: left;
 }
 #main .shopListCon .item .imgCon {
     width: 100%;
@@ -237,14 +243,8 @@ a {
     left: 0px;
     background: url(../img/shadow_blk1.png);
     z-index: 100;
-<<<<<<< HEAD:liangcang/css/shandian.css
-    display: block;
-    zoom: 1;
-  
-=======
     zoom: 1;
  
->>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912:liangcang/css/shandian.css
 }
 #main .styl_1 .li_1 .imgCon .goodsInfo .recInfo {
     margin-top: 134px;
