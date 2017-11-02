@@ -237,9 +237,14 @@ a {
     left: 0px;
     background: url(../img/shadow_blk1.png);
     z-index: 100;
+<<<<<<< HEAD:liangcang/css/shandian.css
     display: block;
     zoom: 1;
   
+=======
+    zoom: 1;
+ 
+>>>>>>> 867ae3098b3fecfec1f6cad9593c71d1bc26b912:liangcang/css/shandian.css
 }
 #main .styl_1 .li_1 .imgCon .goodsInfo .recInfo {
     margin-top: 134px;
