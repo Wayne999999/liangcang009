@@ -25,33 +25,33 @@ a {
 	text-decoration: none;
 	color: #878787;
 }
-#actionContainer {
+#actionContainer1 {
 	width: 1000px;
 	height: 675px;
 	right: 80px;
 	overflow: hidden;
 	position: relative;
 }
-#actionContainer ul {
+#actionContainer1 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-#actionContainer ul li .v2 {
+#actionContainer1 ul li .v2 {
 	display: block;
 	width: 1000px;
 	height: 675px;
 	background: #ffffff;
 	float: left;
 }
-#actionContainer ul li a {
+#actionContainer1 ul li a {
 	display: block;
 }
 a {
 	text-decoration: none;
 	color: #878787;
 }
-#actionContainer ul li a img {
+#actionContainer1 ul li a img {
 	width: 1000px;
 	height: 475px;
 }
