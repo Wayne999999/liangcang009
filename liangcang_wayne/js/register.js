@@ -68,7 +68,7 @@ $(function(){
 			//alert("该手机号码可注册！");
 		}else{
 			a = 0;
-			alert("手机号码格式不正确，请重新输入！");
+			//alert("手机号码格式不正确，请重新输入！");
 			return;
 		}
 	})
@@ -83,7 +83,7 @@ $(function(){
         }
         else {
         	b = 0;
-            alert("请重新输入");
+            //alert("请重新输入");
             
             return;
         }
@@ -98,7 +98,7 @@ $(function(){
 		}
 		else{
 			c = 0;
-			alert("密码格式不对！请重新输入！");		
+			//alert("密码格式不对！请重新输入！");		
 			return;
 		}
 		
@@ -119,7 +119,7 @@ $(function(){
 			}	
 		}
 		else{
-			alert("请先创建密码！");
+			//alert("请先创建密码！");
 			return;
 		}
 	})
