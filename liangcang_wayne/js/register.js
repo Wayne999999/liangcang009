@@ -141,9 +141,10 @@ $(function(){
 							"password":a2
 						}
 						$.post(url,data,function(obj){
-							console.log(obj)
+							//console.log(obj)
 							if(obj.code == 2001){
-								alert("用户名已存在")
+								alert("用户名已存在");
+								$("#mobile_phone").val("请输入手机号码");
 								return
 							}else{
 								alert("注册成功");

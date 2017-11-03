@@ -102,3 +102,17 @@ $.get(url, {"page":5,"pagesize":18},function(obj) {
 
 	$(".shopListCon").html(h);
 })
+
+//console.log($.cookie("username"));
+if($.cookie("username")){
+	$("#changelink").html('<a id="loginBtn" href="login_1.html">'+$.cookie("username")+'</a><a id="registerBtn" href="javascript:">注销</a>');
+}
+
+
+//$("#myId").attr("href","www.xxx.com"); 
+if($("#registerBtn").html()=="注销"){
+	$("#registerBtn").click(function(){
+		$.cookie("username","");
+		$("#changelink").html('<a id="loginBtn" href="login_1.html">登录</a><a id="registerBtn" href="register.html">注册</a>');
+	})
+};
